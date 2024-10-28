@@ -1,0 +1,42 @@
+.about-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-app__inner {
+    max-width: 620px;
+}
+
+.about-app__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    margin-bottom: 16px;
+}
+
+.about-app__text {
+    margin-bottom: 32px;
+}
+
+.about-app__links {
+    display: flex;
+    gap: 12px;
+}
+
+.about-app__link {
+    min-width: 170px;
+    padding: 14px;
+    border-radius: 8px;
+    background: #EDEEEF;
+
+    color: #1E222E;
+    text-decoration: none;
+    text-align: center;
+}
+
+.about-app__link--secondary {
+    background: #1E222E;
+    color: #fff;
+}
